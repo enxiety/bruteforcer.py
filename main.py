@@ -4,7 +4,7 @@ import string
 
 chars = "abcdefghijklmnopqrstuvwxyz0123456789"
 chars_list = list(chars)
-password = pyautogui.password("Enter a password : ")
+password = pyautogui.password("Enter a password: ")
 guesses_used = 0
 guess_password = ""
 
