@@ -12,8 +12,7 @@ while guess_password != password:
     guess_password = random.choices(chars_list, k=len(password))
     guesses_used += float(1)
 
-    print(guess_password)
-    print(guesses_used)
+    print(guess_password, guesses_used)
 
     if guess_password == list(password):
         print("Your password is : " + "".join(guess_password))
